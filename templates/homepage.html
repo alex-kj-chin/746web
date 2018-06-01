@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+<div class="parallax" style="background-image: url({{ url_for('static', filename='images/set1.png') }}); height: 100%;">
+	<div class="caption"><span class="border">746</span></div>
+</div>
+
+<div style="height:200px;background-color:white;font-size:36px;text-align: center;">
+746 is a statistics consulting company. 746 is a statistics consulting company. 746 is a statistics consulting company. 746 is a statistics consulting company. 746 is a statistics consulting company.x
+</div>
+
+<div class="parallax" style="background-image: url({{ url_for('static', filename='images/set2.png') }}); height: 100%;">
+	<!-- <div class="caption"><span class="border">Team</span></div> -->
+</div>
+
+<div style="height:200px;background-color:white;font-size:36px;text-align: center;">
+Our team is made up of very smart people. Our team is made up of very smart people. Our team is made up of very smart people. Our team is made up of very smart people.
+</div>
+
+
+{% endblock %}
