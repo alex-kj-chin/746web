@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="parallax" style="background-image: url({{ url_for('static', filename='images/set1.png') }}); height: 100%;">
+	<div class="caption"><span class="border" style="padding-right: 8px;">746</span></div>
+</div>
+
+<section id="about">
+  <div style="height:200px;background-color:white;font-size:36px;text-align: center;">
+    <h1>Who Are We?</h1>
+    <p style="width: 80%; margin: auto;">At 746 we solve problems with statistics. We apply state of the art data science and machine learning alogrithms to find optimal     solutions to business strategy and resource allocation issues. Our flagship initiative is Data Driven, is a service we provide to businesses. </p>
+  </div>
+</section>
+
+<div class="parallax" style="background-image: url({{ url_for('static', filename='images/set2.png') }}); height: 40%;">
+	<div class="caption"><span class="border">Team</span></div>
+</div>
+
+<section id="team">
+  <div style="height:250px;background-color:white;font-size:36px;text-align: center;">
+  	<h1>Expert Analysts</h1>
+    <p style="width: 80%; margin: 25px auto;">Our team is made up of statistics, mathematics, and computer science concentrators at Harvard University. Team members have technical experience in many field ranging from computational biology to hedge fund management. Additionally, team members have in the past consulted for Fortune 500 companies and congressional campaigns. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah .</p>
+  </div>
+</section>
+
+<div class="parallax" style="background-image: url({{ url_for('static', filename='images/set3.png') }}); height: 40%;">
+	<div class="caption"><span class="border">Programs</span></div>
+</div>
+
+<section id="programs">
+  <div style="height:450px;background-color:white;font-size:36px;text-align: center;">
+    <h1>Our Services</h1>
+    <div class="programs">
+    	<div class="program-container">
+    		<img src="static/images/data.svg" style="width: auto; height: 200px;">
+    		<h3>Data Driven</h3>
+    		<p>A 746 team provides customized statistical analysis and model creation for specific requests.</p>
+    	</div>
+    	<div class="program-container">
+    		<img src="static/images/inventory.svg" style="width: auto; height: 200px;">
+    		<h3>Inventory Management</h3>
+    		<p>746 analysts work diligently to cater our industry-standard inventory algorithm to your specific needs.</p>
+    	</div>
+    </div>
+  </div>
+</section>
+
+<div class="parallax" style="background-image: url({{ url_for('static', filename='images/set4.png') }}); height: 40%;">
+</div>
+
+
+{% endblock %}

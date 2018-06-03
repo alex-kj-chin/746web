@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding-top: 46px;
+    height: calc(100% - 46px);
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.test {
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block; }
+
+.parallax {
+
+    position: relative;
+    z-index: 0;
+
+    /* Set a default height to total page */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    z-index: 0;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    background-color: #58AAA8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    z-index: 3;
+    background-color: #58AAA8;
+}
+
+li {
+    float: left;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* Fonts */
+h1, span {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+h3 {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 18px;
+    color: gray;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+section {
+  padding: 2em 0 2em 0;
+}
+
+.programs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.program-container {
+    width: 33%;
+}
+
+.center-div {
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+}
+
+.footer-text {
+    margin: 0px;
+    color: white;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: white;
+}
